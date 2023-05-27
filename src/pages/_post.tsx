@@ -1,7 +1,5 @@
-import type { NextPage, GetStaticProps } from 'next';
-import Head from 'next/head';
+import type { NextPage } from 'next';
 import { useRouter } from 'next/router';
-import { PostCardList } from '@/components/organisms/PostCardList';
 import { Pagination } from '@/components/organisms/Pagination';
 import {
   withSidebar,
